@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt-get update -y && apt-get install -y wget tar curl sed
+RUN apt-get install -y wget tar curl sed
 RUN wget https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_linux-x64_bin.tar.gz
 RUN tar xvzf openjdk-17.0.2_linux-x64_bin.tar.gz
 RUN mv jdk-17.0.2/ /opt/jdk-17/
