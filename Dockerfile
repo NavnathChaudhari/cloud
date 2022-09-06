@@ -1,2 +1,2 @@
 FROM ubuntu
-CMD ["sleep", "500"]
+CMD ["sleep", "600"]
