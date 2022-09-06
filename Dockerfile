@@ -1,3 +1,3 @@
 FROM ubuntu
-CMD ["sleep", "5000"]
+CMD ["sleep", "6000"]
 
