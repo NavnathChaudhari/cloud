@@ -4,4 +4,8 @@ pipeline{
         stage("A"){
             steps{
                 echo "========executing A========"
+            }
+        }
+    }
+}
         
